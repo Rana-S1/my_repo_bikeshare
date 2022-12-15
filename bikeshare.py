@@ -179,7 +179,7 @@ def user_stats(df):
 
     # TO DO: Display counts of user types
     count_user_type=df['User Type'].value_counts()
-    print('Counts of user types is:\n',count_user_type)
+	print('Counts of user types is:\n',format (count_user_type,',d'))
     print('\n')
     
     # TO DO: Display counts of gender
